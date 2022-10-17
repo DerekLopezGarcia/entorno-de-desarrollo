@@ -1,10 +1,6 @@
 package com.dlg.main;
 
-/**
- * Clase placa base
- */
-public class PlacaBase {
-    private Integer id;
+public class PlacaBase { private Integer id;
     private String marca;
     private String modelo;
     private String tipo;
@@ -13,7 +9,7 @@ public class PlacaBase {
         return  id;
     }
     public String getMarca(){return marca;}
-    public String getModelo(){return modelo}
+    public String getModelo(){return modelo;}
     public String getTipo(){return tipo;}
 
     public void setId(Integer id) {
@@ -32,4 +28,3 @@ public class PlacaBase {
         this.tipo = tipo;
     }
 }
-
